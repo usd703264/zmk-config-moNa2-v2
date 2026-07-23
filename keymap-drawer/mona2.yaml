@@ -37,11 +37,11 @@ layers:
   - LEFT SHIFT
   - LEFT ALT
   - LCTRL
-  - {t: LANG1, h: '4'}
+  - {t: LANGUAGE 2, h: '4'}
   - {t: SPACE, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
   - BACKSPACE
-  - {t: SPACE, h: '1'}
+  - {t: RET, h: '1'}
   - RIGHT SHIFT
   '1':
   - '1'
