@@ -119,7 +119,10 @@
 
 &zip_temp_layer {
     excluded-positions = <
+        7
+        8
         9
+        18
         19
     >;
 };
