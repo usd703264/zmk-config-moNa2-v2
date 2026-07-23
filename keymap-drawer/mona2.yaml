@@ -223,8 +223,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
+  - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,7 +234,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,5 +304,5 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [19, 9]
+- p: [19, 9, 8, 18, 7]
   k: A
