@@ -145,7 +145,7 @@ layers:
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - VOLUME UP
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -157,7 +157,7 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - DELETE
   - PAGE UP
