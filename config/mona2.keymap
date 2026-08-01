@@ -84,6 +84,12 @@
 
             tap-ms = <20>;
         };
+
+        mouse_hold: mouse_hold {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <1>;
+            continue-list = <11 12 13 17 18 19>;
+        };
     };
 
     keymap {
