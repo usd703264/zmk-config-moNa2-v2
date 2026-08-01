@@ -306,3 +306,9 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [17, 18]
   k: '&mkp MB1'
+- p: [18, 19]
+  k: '&mkp MB2'
+- p: [29, 30]
+  k: '&mkp MB4'
+- p: [30, 31]
+  k: '&mkp MB5'
