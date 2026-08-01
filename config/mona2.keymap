@@ -33,6 +33,21 @@
             bindings = <&mkp MB1>;
             key-positions = <17 18>;
         };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <18 19>;
+        };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <29 30>;
+        };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
