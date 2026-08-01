@@ -39,8 +39,8 @@ layers:
   - LEFT GUI
   - LANGUAGE 2
   - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
-  - {t: '&to_layer_0 BACKSPACE', h: '3'}
+  - {t: '&to_layer_0 LANGUAGE_1', h: default}
+  - {t: '&to_layer_0 BACKSPACE', h: default}
   - {t: RETURN, h: '1'}
   - DELETE
   '1':
@@ -54,29 +54,29 @@ layers:
   - '*'
   - (
   - )
-  - ''
-  - ''
-  - '['
-  - ']'
-  - ''
-  - ''
+  - TAB
+  - END
+  - UP ARROW
+  - HOME
+  - PAGE UP
+  - '`'
   - '='
   - ;
   - ''''
-  - \
-  - '`'
-  - ''
-  - ''
-  - '{'
-  - '}'
-  - ''
-  - ''
-  - ''
+  - '['
+  - ']'
+  - LEFT SHIFT
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PAGE DOWN
+  - PRINTSCREEN
+  - '~'
   - +
   - ':'
   - '"'
-  - '|'
-  - '~'
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,82 +130,39 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PAGE UP
-  - HOME
-  - UP ARROW
-  - END
+  - VOL DN
+  - VOL UP
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
+  - '&studio_unlock'
   - ''
-  - PAGE DOWN
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - ''
-  - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - ''
-  - LEFT SHIFT
+  - BRI DEC
+  - BRI INC
   - ''
   - ''
   - ''
   - ''
   - ''
-  - RIGHT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '7':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -347,5 +304,3 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [11, 12]
-  k: TAB
