@@ -312,5 +312,3 @@ combos:
   k: '&mkp MB4'
 - p: [30, 31]
   k: '&mkp MB5'
-- p: [19, 20]
-  k: {t: '6', h: toggle}
