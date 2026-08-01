@@ -53,6 +53,11 @@
             bindings = <&to 6>;
             key-positions = <19 20>;
         };
+
+        a {
+            bindings = <&kp A>;
+            key-positions = <5 6 7 8 9>;
+        };
     };
 
     macros {
