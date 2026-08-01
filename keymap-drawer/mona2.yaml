@@ -38,10 +38,10 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - LANGUAGE 2
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANGUAGE_1', h: default}
-  - {t: '&to_layer_0 BACKSPACE', h: default}
-  - {t: RETURN, h: '1'}
+  - {t: SPACE, h: '1'}
+  - {t: LANGUAGE 1, h: '2'}
+  - BACKSPACE
+  - {t: RETURN, h: '3'}
   - DELETE
   '1':
   - '!'
@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - F1
@@ -124,8 +124,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
