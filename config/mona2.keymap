@@ -28,6 +28,31 @@
             bindings = <&lt 4 ESC>;
             key-positions = <39 38>;
         };
+
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <17 18>;
+        };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <18 19>;
+        };
+
+        MB4 {
+            bindings = <&mkp MB4>;
+            key-positions = <29 30>;
+        };
+
+        MB5 {
+            bindings = <&mkp MB5>;
+            key-positions = <30 31>;
+        };
+
+        SCROL {
+            bindings = <&to 6>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
