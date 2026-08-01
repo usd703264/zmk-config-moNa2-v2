@@ -304,5 +304,5 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [5, 6, 7]
-  k: A
+- p: [17, 18]
+  k: '&mkp MB1'
