@@ -29,9 +29,9 @@
             key-positions = <39 38>;
         };
 
-        a {
-            bindings = <&kp A>;
-            key-positions = <5 6 7>;
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <17 18>;
         };
     };
 
