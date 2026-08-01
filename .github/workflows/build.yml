@@ -3,10 +3,3 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
-    - name: Cache Docker layers
-    uses: actions/cache@v3
-    with:
-      path: /tmp/.buildx-cache
-      key: ${{ runner.os }}-buildx-${{ github.sha }}
-      restore-keys: |
-        ${{ runner.os }}-buildx-
