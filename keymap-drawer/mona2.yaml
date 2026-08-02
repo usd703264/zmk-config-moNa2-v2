@@ -225,7 +225,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: mouse_speed2, h: toggle}
+  - ''
   - ''
   - ''
   - ''
@@ -236,7 +236,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {type: held}
-  - {t: '6', h: toggle}
+  - ''
   - ''
   - ''
   - ''
