@@ -65,7 +65,7 @@ layers:
   - ''''
   - '['
   - ']'
-  - {t: LEFT SHIFT, h: toggle}
+  - LEFT SHIFT
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -150,7 +150,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: RIGHT SHIFT, h: toggle}
+  - RIGHT SHIFT
   - ''
   - ''
   - ''
