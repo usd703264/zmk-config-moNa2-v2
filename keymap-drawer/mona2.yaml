@@ -20,7 +20,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: '5'}
   - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -225,7 +225,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: mouse_speed2, h: toggle}
   - ''
   - ''
   - ''
@@ -235,7 +235,7 @@ layers:
   - ''
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: mouse_speed2, h: toggle}
+  - {type: held}
   - {t: '6', h: toggle}
   - ''
   - ''
