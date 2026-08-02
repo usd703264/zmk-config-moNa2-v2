@@ -37,11 +37,11 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - LANGUAGE 2
+  - {t: LANGUAGE 2, h: '3'}
   - {t: SPACE, h: '1'}
   - {t: LANGUAGE 1, h: '2'}
   - BACKSPACE
-  - {t: RETURN, h: '3'}
+  - RETURN
   - DELETE
   '1':
   - '!'
@@ -92,10 +92,10 @@ layers:
   - F3
   - F4
   - F5
-  - ''
   - '7'
   - '8'
   - '9'
+  - '0'
   - ''
   - F6
   - F7
@@ -103,10 +103,10 @@ layers:
   - F9
   - F10
   - ''
-  - ''
   - '4'
   - '5'
   - '6'
+  - ','
   - ''
   - F11
   - F12
@@ -115,10 +115,10 @@ layers:
   - ''
   - ''
   - ''
-  - '0'
   - '1'
   - '2'
   - '3'
+  - .
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,11 +166,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
