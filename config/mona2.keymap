@@ -107,7 +107,7 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &kp LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &lt 3 RETURN                             &kp DELETE
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            //sensor-bindings = <&scroll_up_down>;
         };
 
         layer_1 {
@@ -160,7 +160,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                             &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            //sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
@@ -170,6 +170,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         mouse_speed2 {
