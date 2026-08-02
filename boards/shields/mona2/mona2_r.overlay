@@ -90,4 +90,11 @@
             <&zip_scroll_scaler 1 50>;                          //スクロール量を1/4倍
     };
 
+    slow_toggle_config {
+        layers = <7>;
+        input-processors = 
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,   // 必要に応じて
+            <&zip_xy_scaler 1 2>;                           // 速度を1/2倍
+    };
+
 };
