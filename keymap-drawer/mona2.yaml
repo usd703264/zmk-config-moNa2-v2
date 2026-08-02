@@ -9,8 +9,8 @@ layers:
   - Y
   - U
   - I
-  - {t: '0', h: mouse_speed2}
-  - P
+  - O
+  - {t: P, h: '6'}
   - A
   - S
   - D
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -310,7 +310,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -322,7 +322,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
