@@ -20,7 +20,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: '&to_layer_0 L', h: '5'}
   - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT GUI
@@ -65,7 +65,7 @@ layers:
   - ''''
   - '['
   - ']'
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, h: toggle}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -135,10 +135,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - '&studio_unlock'
+  - PAGE UP
+  - HOME
+  - UP ARROW
+  - END
   - ''
   - BRI DEC
   - BRI INC
@@ -146,11 +146,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - PAGE DOWN
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - {t: RIGHT SHIFT, h: toggle}
   - ''
   - ''
   - ''
@@ -235,7 +235,7 @@ layers:
   - PAGE UP
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - {type: held}
   - {t: '6', h: toggle}
   - ''
   - ''
@@ -247,7 +247,7 @@ layers:
   - PAGE DOWN
   - '&mkp MB4'
   - '&mkp MB5'
-  - '&mkp MCLK'
+  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
