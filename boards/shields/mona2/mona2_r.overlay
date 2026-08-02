@@ -3,6 +3,16 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 
+/ {
+    /omit-if-no-ref/ my_temp_layer: my_temp_layer {
+        compatible = "zmk,input-processor-temp-layer";
+        #input-processor-cells = <2>;
+        require-prior-idle-ms = <1000>;
+        excluded-positions = <11 12 13 17 18 19>;
+    };
+};
+
+
 &default_transform {
     col-offset = <6>;
 };
@@ -52,7 +62,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
-        cpi = <600>;
+        cpi = <400>;
         //swap-xy;
         //invert-x; //COROPIT版ではコメントアウトを外す
         //invert-y; //COROPIT版ではコメントアウトを外す
@@ -68,14 +78,16 @@
     status = "okay";
     device = <&trackball_central>;
 
+    input-processors = <&my_temp_layer 5 2000>;
+
     scroller {
-        layers = <3>;
+        layers = <6>;
         input-processors = 
-            // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
+            // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,     //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
             <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
-            <&zip_scroll_scaler 1 5>;                           //スクロール量を1/4倍
+            <&zip_scroll_scaler 1 50>;                          //スクロール量を1/4倍
     };
 
 };
