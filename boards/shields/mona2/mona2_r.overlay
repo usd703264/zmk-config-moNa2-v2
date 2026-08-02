@@ -2,17 +2,6 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-
-/ {
-    /omit-if-no-ref/ my_temp_layer: my_temp_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-        require-prior-idle-ms = <500>;
-        excluded-positions = <17 18 19 28 29>;
-    };
-};
-
-
 &default_transform {
     col-offset = <6>;
 };
@@ -77,8 +66,6 @@
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
-
-    input-processors = <&my_temp_layer 5 2000>;
 
     scroller {
         layers = <6>;
