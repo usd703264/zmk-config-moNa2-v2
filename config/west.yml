@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: zettaface  # <-- Input Processor Keybind
       url-base: https://github.com/zettaface
+    - name: oleksandrmaslov
+      url-base: https://github.com/oleksandrmaslov      
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -28,6 +30,9 @@ manifest:
       revision: v0.3-branch
     - name: zmk-input-processor-keybind
       remote: zettaface
+      revision: main
+    - name: zmk-pointing-acceleration
+      remote: oleksandrmaslov
       revision: main
   self:
     path: config
