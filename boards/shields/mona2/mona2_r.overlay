@@ -68,7 +68,7 @@
         cpi = <400>;
         //swap-xy;
         //invert-x; //COROPIT版ではコメントアウトを外す
-        invert-y; //COROPIT版ではコメントアウトを外す
+        //invert-y; //COROPIT版ではコメントアウトを外す
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -86,14 +86,14 @@
     mouse_layer_config {
         layers = <5>;
         input-processors = 
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_xy_scaler 1 1>;
     };
 
     slow_toggle_config {
         layers = <6>;
         input-processors = 
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_xy_scaler 1 2>;
     };
 
@@ -104,6 +104,6 @@
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
             <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
-            <&zip_scroll_scaler 1 50>;                          //スクロール量を1/n倍
+            <&zip_scroll_scaler 1 10>;                          //スクロール量を1/n倍
     };
 };
