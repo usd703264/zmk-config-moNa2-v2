@@ -8,7 +8,7 @@
         #input-processor-cells = <0>;
         input-type = <INPUT_EV_REL>; 
         acceleration-exponent = <1>;
-        time-to-max-speed-ms = <500>;
+        // time-to-max-speed-ms = <500>;
     };
 };
 
