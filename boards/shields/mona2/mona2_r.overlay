@@ -67,8 +67,6 @@
     status = "okay";
     device = <&trackball_central>;
 
-    input-processors = <&mouse_layer_config 5 &slow_toggle_config 6>;
-
     mouse_layer_config {
         layers = <5>;
         input-processors = 
