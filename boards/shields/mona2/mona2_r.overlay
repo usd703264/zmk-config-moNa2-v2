@@ -85,7 +85,7 @@
 
     default_layer_config {
         layers = <0>;
-        input-processors = 
+        input-processors =
             <&pointer_accel>, 
             <&zip_xy_scaler 1 1>;
 
@@ -107,7 +107,7 @@
 
     scroller {
         layers = <7>;
-        input-processors = 
+        input-processors =
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,     //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
             <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
