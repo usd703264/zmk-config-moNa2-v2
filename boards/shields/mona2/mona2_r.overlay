@@ -81,7 +81,7 @@
     status = "okay";
     device = <&trackball_central>;
 
-    input-processors = <&pointer_accel>;
+    //input-processors = <&pointer_accel>;
 
     default_layer_config {
         layers = <0>;
