@@ -68,7 +68,7 @@
     device = <&trackball_central>;
 
     scroller {
-        layers = <6>;
+        layers = <7>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,     //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
@@ -78,7 +78,7 @@
     };
 
     slow_toggle_config {
-        layers = <7>;
+        layers = <6>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,   // 必要に応じて
             <&zip_xy_scaler 1 2>;                           // 速度を1/n倍
