@@ -2,6 +2,15 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
+/ {
+    pointer_accel: pointer_accel {
+        compatible = "zmk,input-processor-pointer-acceleration";
+        #input-processor-cells = <0>;
+        acceleration-exponent = <1>;
+        time-to-max-speed-ms = <500>;
+    };
+};
+
 &default_transform {
     col-offset = <6>;
 };
@@ -68,12 +77,6 @@
     device = <&trackball_central>;
 
     input-processors = <&pointer_accel>;
-    pointer_accel: pointer_accel {
-        compatible = "zmk,input-processor-pointer-acceleration";
-        #input-processor-cells = <0>;
-        acceleration-exponent = <1>;          // 加速度の強さ (1が標準)
-        time-to-max-speed-ms = <500>;         // 最大速度に達するまでの時間 (ms)
-    };
 
     mouse_layer_config {
         layers = <5>;
