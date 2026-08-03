@@ -6,7 +6,7 @@
     pointer_accel: pointer_accel {
         compatible = "zmk,input-processor-acceleration";
         #input-processor-cells = <0>;
-        input-type = <POINTER>; 
+        input-type = <INPUT_EV_REL>; 
         acceleration-exponent = <1>;
         time-to-max-speed-ms = <500>;
     };
