@@ -51,7 +51,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
-        cpi = <200>;
+        cpi = <400>;
         //swap-xy;
         //invert-x; //COROPIT版ではコメントアウトを外す
         //invert-y; //COROPIT版ではコメントアウトを外す
@@ -71,14 +71,14 @@
         layers = <5>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 2 2>;  // 200×2 = 400dpi
+            <&zip_xy_scaler 1 1>;
     };
 
     slow_toggle_config {
         layers = <6>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 1 1>;  // 200x1 = 200dpi
+            <&zip_xy_scaler 1 2>;
     };
 
     scroller {
