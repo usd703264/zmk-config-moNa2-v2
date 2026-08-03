@@ -50,7 +50,7 @@
         };
 
         scroll {
-            bindings = <&to 6>;
+            bindings = <&to 7>;
             key-positions = <19 20>;
         };
 
@@ -101,9 +101,9 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y       &kp U  &kp I      &kp O    &lt 6 P
-&kp A             &kp S         &kp D         &kp F             &kp G                            &kp TAB        &kp H       &kp J  &kp K      &lt 5 L  &lt 7 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp ESCAPE          &kp RS(TAB)    &kp N       &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y       &kp U  &kp I      &kp O    &lt 7 P
+&kp A             &kp S         &kp D         &kp F             &kp G                            &kp ESCAPE     &kp H       &kp J  &kp K      &lt 5 L  &lt 6 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp LCTRL           &kp TAB        &kp N       &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp RETURN                             &kp DELETE
             >;
         };
@@ -144,12 +144,21 @@
             >;
         };
 
-        MOUSE {
+        MOUSE1 {
             bindings = <
-&none  &none  &none  &none  &none                  &none  &none     &none     &none  &none
-&none  &none  &none  &none  &none           &none  &none  &mkp MB1  &mkp MB2  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &mkp MB4  &mkp MB5  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                             &none
+&none  &none  &none  &none  &none                  &none          &none     &none     &none  &none
+&none  &none  &none  &none  &none           &none  &kp PAGE_UP    &mkp MB1  &mkp MB2  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &kp PAGE_DOWN  &mkp MB4  &mkp MB5  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                                     &none
+            >;
+        };
+
+        MOUSE2 {
+            bindings = <
+&none  &none  &none  &none  &none                  &none          &none     &none     &none  &none
+&none  &none  &none  &none  &none           &none  &kp PAGE_UP    &mkp MB1  &mkp MB2  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &kp PAGE_DOWN  &mkp MB4  &mkp MB5  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                                     &none
             >;
         };
 
@@ -159,15 +168,6 @@
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-        };
-
-        mouse_speed2 {
-            bindings = <
-&none  &none  &none  &none  &none                  &none  &none     &none     &none  &none
-&none  &none  &none  &none  &none           &none  &none  &mkp MB1  &mkp MB2  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &mkp MB4  &mkp MB5  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                             &none
             >;
         };
     };
