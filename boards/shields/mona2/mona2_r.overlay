@@ -67,6 +67,8 @@
     status = "okay";
     device = <&trackball_central>;
 
+    input-processors = <&pointer_accel>;
+
     mouse_layer_config {
         layers = <5>;
         input-processors = 
