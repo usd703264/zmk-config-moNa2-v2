@@ -71,14 +71,14 @@
         layers = <5>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 2 2>;   // 200×2 = 400dpi
+            <&zip_xy_scaler 2 2>;  // 200×2 = 400dpi
     };
 
     slow_toggle_config {
         layers = <6>;
         input-processors = 
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,   // 必要に応じて
-            <&zip_xy_scaler 1 50>;                           // 200x1 = 200dpi
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&zip_xy_scaler 1 1>;  // 200x1 = 200dpi
     };
 
     scroller {
