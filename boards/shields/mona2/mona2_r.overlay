@@ -78,7 +78,7 @@
         layers = <6>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,   // 必要に応じて
-            <&zip_xy_scaler 1 1>;                           // 200x1 = 200dpi
+            <&zip_xy_scaler 1 50>;                           // 200x1 = 200dpi
     };
 
     scroller {
