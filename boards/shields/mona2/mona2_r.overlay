@@ -8,7 +8,11 @@
         #input-processor-cells = <0>;
         input-type = <INPUT_EV_REL>; 
         acceleration-exponent = <1>;
-        // time-to-max-speed-ms = <500>;
+        min-factor = <500>;    // 0.5倍（低速時の精密さ）
+        max-factor = <2500>;   // 2.5倍（高速時の機動力）
+        speed-threshold = <1000>;
+        speed-max = <4000>;
+        track-remainders;
     };
 };
 
