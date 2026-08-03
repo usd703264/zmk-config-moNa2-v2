@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - {t: L, h: MOUSE1}
-  - {t: '-', h: '7'}
+  - {t: '-', h: '6'}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -258,7 +258,7 @@ layers:
   - ''
   - ''
   - ''
-  '7':
+  '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
