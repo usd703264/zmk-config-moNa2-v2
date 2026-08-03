@@ -8,11 +8,11 @@
         #input-processor-cells = <0>;
         input-type = <INPUT_EV_REL>; 
         acceleration-exponent = <1>;
-        min-factor = <500>;    // 0.5倍（低速時の精密さ）
-        max-factor = <2500>;   // 2.5倍（高速時の機動力）
-        speed-threshold = <1000>;
-        speed-max = <4000>;
-        track-remainders;
+        min-factor = <400>;        // 低速時のカーソル速度倍率（例：500 = 0.5倍）
+        max-factor = <2500>;       // 高速時のカーソル速度倍率（例：2500 = 2.5倍）
+        speed-threshold = <1000>;  // 加速度が効き始める速度の閾値
+        speed-max = <4000>;        // 最大加速度に達する速度
+        track-remainders;          // 端数を累積して精度向上（フラグ）
     };
 };
 
