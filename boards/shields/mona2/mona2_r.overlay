@@ -96,15 +96,8 @@
             <&zip_xy_scaler 1 1>;
     };
 
-    slow_toggle_config {
-        layers = <6>;
-        input-processors =
-            //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 1 2>;
-    };
-
     scroller {
-        layers = <7>;
+        layers = <6>;
         input-processors =
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,     //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
