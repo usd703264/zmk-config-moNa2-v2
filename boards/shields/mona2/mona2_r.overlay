@@ -51,7 +51,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
-        cpi = <400>;
+        cpi = <200>;
         //swap-xy;
         //invert-x; //COROPIT版ではコメントアウトを外す
         //invert-y; //COROPIT版ではコメントアウトを外す
@@ -78,9 +78,8 @@
         layers = <6>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,   // 必要に応じて
-            <&zip_xy_scaler 1 3>;                           // 速度を1/n倍
+            <&zip_xy_scaler 1 1>;                           // 200x1 = 200dpi
     };
-
 
     scroller {
         layers = <7>;
@@ -91,6 +90,4 @@
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
             <&zip_scroll_scaler 1 50>;                          //スクロール量を1/n倍
     };
-
-
 };
