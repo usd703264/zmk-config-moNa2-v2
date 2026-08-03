@@ -86,14 +86,14 @@
     mouse_layer_config {
         layers = <5>;
         input-processors = 
-            //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_xy_scaler 1 1>;
     };
 
     slow_toggle_config {
         layers = <6>;
         input-processors = 
-            //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_xy_scaler 1 2>;
     };
 
