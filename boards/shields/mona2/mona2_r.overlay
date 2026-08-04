@@ -75,13 +75,14 @@
     };
 };
 
-// ★★★ ここからがテスト用の設定 ★★★
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
 
-    // ★ すべてのレイヤーでスクロールにする（デバッグ用）
+    // ★ ルートに直接スクロール変換とレイヤー制御を設定 ★
     input-processors =
-        <&zip_xy_to_scroll_mapper>,   // スクロール変換
-        <&zip_scroll_scaler 1 2>;     // スクロール速度
+        <&zip_temp_layer 6 2000>,                    // ① トラックボール操作でレイヤー6を有効（2000msで解除）
+        <&zip_xy_to_scroll_mapper>,                  // ② XY入力をスクロールに変換
+        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>, // ③ ★ 上下逆を修正（Y軸反転）
+        <&zip_scroll_scaler 1 2>;                    // ④ スクロール速度（1/2倍）
 };
