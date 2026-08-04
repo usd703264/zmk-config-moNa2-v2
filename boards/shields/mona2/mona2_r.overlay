@@ -80,9 +80,10 @@
     device = <&trackball_central>;
 
     input-processors =
-        <&zip_xy_to_scroll_mapper>,
-        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
-        <&zip_scroll_scaler 1 2>;
+        <&zip_temp_layer 6 2000>, 
+        <&zip_xy_to_scroll_mapper>, 
+        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>, 
+        <&zip_scroll_scaler 1 2>;   
 
     default_layer_config {
         layers = <0>;
