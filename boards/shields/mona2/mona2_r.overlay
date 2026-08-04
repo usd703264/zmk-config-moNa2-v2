@@ -77,13 +77,7 @@
 
 &trackball_central_listener {
     status = "okay";
-    device = <&trackball_central>;
-
-    input-processors =
-        <&zip_temp_layer 6 2000>, 
-        <&zip_xy_to_scroll_mapper>, 
-        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>, 
-        <&zip_scroll_scaler 1 2>;   
+    device = <&trackball_central>;   
 
     default_layer_config {
         layers = <0>;
@@ -99,4 +93,12 @@
             <&pointer_accel>,  
             <&zip_xy_scaler 1 1>;
     };
+
+    scroller {
+        layers = <6>;
+        input-processors =
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_scaler 1 2>;
+    };
+
 };
