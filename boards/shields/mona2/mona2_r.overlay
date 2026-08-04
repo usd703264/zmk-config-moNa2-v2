@@ -79,10 +79,12 @@
     status = "okay";
     device = <&trackball_central>; 
 
+    input-processors = <&pointer_accel>;
+
     default_layer_config {
         layers = <0>;
         input-processors =
-            <&pointer_accel>,  
+            //<&pointer_accel>,  
             <&zip_xy_scaler 1 1>;
      };
 
@@ -90,7 +92,7 @@
         layers = <5>;
         input-processors =
             //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&pointer_accel>,  
+            //<&pointer_accel>,  
             <&zip_xy_scaler 1 1>;
     };
 
