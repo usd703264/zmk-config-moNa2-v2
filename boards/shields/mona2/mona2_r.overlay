@@ -6,13 +6,13 @@
     pointer_accel: pointer_accel {
         compatible = "zmk,input-processor-acceleration";
         #input-processor-cells = <0>;
-        input-type = <INPUT_EV_REL>;
-        acceleration-exponent = <1>;
-        min-factor = <30>;
-        max-factor = <2000>;
-        speed-threshold = <3000>;
-        speed-max = <4000>;
-        track-remainders;
+        input-type = <INPUT_EV_REL>; 
+        acceleration-exponent = <1>;   // 加速度カーブ 1 = 線形 2 = カーブ
+        min-factor = <30>;             // 低速時のカーソル速度倍率（例：500 = 0.5倍）
+        max-factor = <2000>;           // 高速時のカーソル速度倍率（例：2500 = 2.5倍）
+        speed-threshold = <3000>;      // 加速度が効き始める速度の閾値
+        speed-max = <4000>;            // 最大加速度に達する速度
+        track-remainders;              // 端数を累積して精度向上（フラグ）
     };
 };
 
@@ -21,31 +21,54 @@
 };
 
 &kscan0 {
-    col-gpios
-        = <&xiao_d 10 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 9 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 8 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 7 GPIO_ACTIVE_HIGH>
-        , <&gpio0 10 GPIO_ACTIVE_HIGH>
-        ;
+        col-gpios
+            = <&xiao_d 10 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 9 GPIO_ACTIVE_HIGH> 
+            , <&xiao_d 8 GPIO_ACTIVE_HIGH> 
+            , <&xiao_d 7 GPIO_ACTIVE_HIGH> 
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>
+            ;
 };
+
 
 &pinctrl {
-    // ... 省略（既存のまま） ...
+    spi0_default: spi0_default {    //通常時(SPI通信中)のピン構成
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 5)>, //P0.05を指定(SCLK)
+                <NRF_PSEL(SPIM_MOSI, 0, 4)>,    //P0.04を指定(SDIOだからMOSI,MISO両方の役割を担う)
+                <NRF_PSEL(SPIM_MISO, 0, 4)>;
+        };
+    };
+
+    spi0_sleep: spi0_sleep {    //スリープ時のピン構成(省電力)
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 5)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 4)>,
+                <NRF_PSEL(SPIM_MISO, 0, 4)>;
+            low-power-enable;
+        };
+    };
 };
 
+
 &spi0 {
-    // ... 省略（既存のまま） ...
+    status = "okay";
+    compatible = "nordic,nrf-spim"; //マイコンがnRFシリーズ
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;  //P0.09を指定(CS)
+
     trackball_central: trackball_central@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3610";  //トラボセンサ用のドライバとバインド
         reg = <0>;
         spi-max-frequency = <2000000>;
-        irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
         cpi = <400>;
         //swap-xy;
-        //invert-x;
-        invert-y;
+        //invert-x; //COROPIT版ではコメントアウトを外す
+        invert-y; //COROPIT版ではコメントアウトを外す
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
