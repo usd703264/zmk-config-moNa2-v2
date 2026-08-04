@@ -81,12 +81,12 @@
 
     //input-processors = <&pointer_accel>;
 
-    default_layer_config {
-        layers = <0>;
-        input-processors =
-            //<&pointer_accel>,  
-            <&zip_xy_scaler 1 1>;
-    };
+    //default_layer_config {
+    //    layers = <0>;
+    //    input-processors =
+    //        //<&pointer_accel>,  
+    //        <&zip_xy_scaler 1 1>;
+    //};
 
     //mouse_layer_config {
     //    layers = <5>;
