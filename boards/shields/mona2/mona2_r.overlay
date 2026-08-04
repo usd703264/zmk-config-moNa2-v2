@@ -79,12 +79,6 @@
     status = "okay";
     device = <&trackball_central>; 
 
-    input-processors =
-        <&zip_temp_layer 6 2000>,
-        <&zip_xy_to_scroll_mapper>,
-        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
-        <&zip_scroll_scaler 1 2>; 
-
     default_layer_config {
         layers = <0>;
         input-processors =
@@ -98,6 +92,16 @@
             //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&pointer_accel>,  
             <&zip_xy_scaler 1 1>;
+    };
+
+    scroller {
+        layers = <6>;
+        input-processors = 
+            // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,     //X軸とY軸の入れ替え
+            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転（必須）
+            <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
+            <&zip_scroll_scaler 1 5>;                           //スクロール量（お好みで調整）
     };
 
 };
