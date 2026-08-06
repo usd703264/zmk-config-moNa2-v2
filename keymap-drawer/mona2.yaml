@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
+  - TAB
   - H
   - J
   - K
@@ -27,8 +27,8 @@ layers:
   - C
   - V
   - B
-  - LCTRL
-  - TAB
+  - {t: ESCAPE, h: MOUSE1}
+  - RCTRL
   - N
   - M
   - ','
