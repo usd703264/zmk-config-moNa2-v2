@@ -13,7 +13,7 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
-    tapping-term-ms = <300>; 
+    tapping-term-ms = <300>;
 };
 
 &lt {
@@ -90,9 +90,9 @@
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                     &kp N7        &kp N8        &kp N9        &kp N0      &none
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10            &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COMMA   &none
-&kp F11  &kp F12  &none   &none   &none    &none     &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &none
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                     &kp N7        &kp N8        &kp N9        &none       &none
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10            &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none       &none
+&kp F11  &kp F12  &none   &none   &none    &none     &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp COMMA
 &trans   &trans   &trans  &trans  &trans   &trans    &trans  &trans                                                &trans
             >;
         };
