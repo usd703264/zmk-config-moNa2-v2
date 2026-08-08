@@ -77,6 +77,8 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 5 ESCAPE        &kp RCTRL      &kp N       &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp RETURN                             &kp DELETE
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
         };
 
         layer_1 {
