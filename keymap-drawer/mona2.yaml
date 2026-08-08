@@ -58,23 +58,23 @@ layers:
   - END
   - UP ARROW
   - HOME
-  - \
+  - ''''
   - '`'
   - '='
   - ;
-  - ''''
+  - \
   - '['
   - ']'
   - LEFT SHIFT
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - '|'
+  - '"'
   - PRINTSCREEN
   - '~'
   - +
   - ':'
-  - '"'
+  - '|'
   - '{'
   - '}'
   - {t: ▽, type: trans}
