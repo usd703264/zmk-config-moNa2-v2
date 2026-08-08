@@ -136,16 +136,16 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - HOME
   - UP ARROW
-  - ''
+  - END
   - ''
   - BRI DEC
   - BRI INC
   - ''
   - ''
   - ''
-  - ''
+  - PAGE UP
   - RIGHT SHIFT
   - LEFT ARROW
   - DOWN ARROW
@@ -157,7 +157,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - PAGE DOWN
   - ''
   - ''
   - ''
