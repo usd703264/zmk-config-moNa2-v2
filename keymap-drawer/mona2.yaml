@@ -22,18 +22,18 @@ layers:
   - K
   - L
   - '-'
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - ESCAPE
-  - LEFT SHIFT
+  - RCTRL
   - N
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT GUI
