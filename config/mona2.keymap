@@ -29,6 +29,26 @@
             bindings = <&lt 4 ESC>;
             key-positions = <39 38>;
         };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <17 29>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <18 30>;
+        };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <16 28>;
+        };
+
+        sc {
+            bindings = <&to 6>;
+            key-positions = <19 31>;
+        };
     };
 
     macros {
@@ -72,10 +92,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y       &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G                            &kp TAB        &kp H       &kp J  &kp K      &lt 5 L  &lt 6 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 5 ESCAPE        &kp RCTRL      &kp N       &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp RETURN                             &kp DELETE
+&kp Q      &kp W         &kp E         &kp R             &kp T                                            &kp Y       &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F             &kp G                            &kp TAB         &kp H       &kp J  &kp K      &kp L    &kp MINUS
+&kp Z      &kp X         &kp C         &kp V             &kp B        &kp ESCAPE          &kp LEFT_SHIFT  &kp N       &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE   &kp RETURN                             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
@@ -117,7 +137,7 @@
             >;
         };
 
-        MOUSE1 {
+        MOUSE {
             bindings = <
 &none  &none  &none  &none  &none                  &kp PAGE_UP    &none     &none     &none  &none
 &none  &none  &none  &none  &none           &none  &kp PAGE_DOWN  &mkp MB1  &mkp MB2  &none  &none
