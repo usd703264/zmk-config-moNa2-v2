@@ -46,7 +46,7 @@
         };
 
         sc {
-            bindings = <&to 6>;
+            bindings = <&sl 6>;
             key-positions = <19 31>;
         };
     };
