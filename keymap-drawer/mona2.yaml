@@ -20,20 +20,20 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: MOUSE1}
-  - {t: '-', h: '6'}
-  - {t: Z, h: LEFT SHIFT}
+  - L
+  - '-'
+  - Z
   - X
   - C
   - V
   - B
-  - {t: ESCAPE, h: MOUSE1}
-  - RCTRL
+  - ESCAPE
+  - LEFT SHIFT
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - /
   - LCTRL
   - LEFT ALT
   - LEFT GUI
@@ -215,49 +215,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  MOUSE1:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PAGE UP
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PAGE DOWN
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  '5': ['', '', '', '', '', PAGE UP, '', '', '', '', '', '', '', '', '', '', PAGE DOWN, '&mkp MB1', '&mkp MB2', '', '', '', '', '', '', '', '', '', '', '&mkp MB4',
+    '&mkp MB5', '', '', '', '', '', '', '', '', '', '', '']
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -279,7 +238,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,3 +263,11 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
+- p: [17, 29]
+  k: '&mkp MB1'
+- p: [18, 30]
+  k: '&mkp MB2'
+- p: [16, 28]
+  k: '&mkp MB4'
+- p: [19, 31]
+  k: {t: '6', h: toggle}
