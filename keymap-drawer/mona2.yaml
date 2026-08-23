@@ -27,14 +27,14 @@ layers:
   - C
   - V
   - B
-  - Alt+PRINTSCREEN
+  - ESCAPE
   - /
   - N
   - M
   - ','
   - .
   - {t: BACKSPACE, h: RIGHT SHIFT}
-  - ESCAPE
+  - Alt+PRINTSCREEN
   - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: '3'}
