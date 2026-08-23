@@ -16,31 +16,31 @@ layers:
   - D
   - F
   - G
-  - '-'
+  - TAB
   - H
   - J
   - K
   - L
-  - RET
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
+  - LCTRL
   - ESCAPE
-  - /
   - N
   - M
   - ','
   - .
-  - {t: BACKSPACE, h: RIGHT SHIFT}
+  - {t: /, h: RIGHT SHIFT}
   - Alt+PRINTSCREEN
   - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: '3'}
   - {t: LANGUAGE 1, h: '1'}
-  - {t: LCTRL, h: '2'}
-  - TAB
+  - {t: RET, h: '2'}
+  - BACKSPACE
   - SPACE
   - DELETE
   '1':
