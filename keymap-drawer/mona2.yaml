@@ -16,32 +16,32 @@ layers:
   - D
   - F
   - G
-  - TAB
+  - '-'
   - H
   - J
   - K
   - L
-  - '-'
+  - RET
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - ESCAPE
-  - RCTRL
+  - Alt+PRINTSCREEN
+  - /
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
-  - LCTRL
+  - {t: BACKSPACE, h: RIGHT SHIFT}
+  - ESCAPE
   - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: '3'}
-  - {t: SPACE, h: '1'}
-  - {t: LANGUAGE 1, h: '2'}
-  - BACKSPACE
-  - RETURN
+  - {t: LANGUAGE 1, h: '1'}
+  - {t: LCTRL, h: '2'}
+  - TAB
+  - SPACE
   - DELETE
   '1':
   - '!'
