@@ -39,8 +39,8 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: '3'}
   - {t: LANGUAGE 1, h: '1'}
-  - {t: BACKSPACE, h: '2'}
-  - SPACE
+  - {t: SPACE, h: '2'}
+  - BACKSPACE
   - RET
   - DELETE
   '1':
