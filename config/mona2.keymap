@@ -108,7 +108,7 @@
 &kp PRINTSCREEN  &kp LEFT_ALT    &kp LEFT_GUI  &lt 3 ESCAPE      &lt 1 TAB  &lt 2 SPACE    &kp BACKSPACE  &kp RET                                                   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
         };
 
         layer_1 {
