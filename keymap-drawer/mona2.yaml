@@ -272,6 +272,6 @@ combos:
 - p: [19, 31]
   k: '6'
 - p: [2, 3]
-  k: LANGUAGE 1
-- p: [6, 7]
   k: LANGUAGE 2
+- p: [6, 7]
+  k: LANGUAGE 1
