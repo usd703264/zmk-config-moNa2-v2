@@ -102,10 +102,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W         &kp E         &kp R             &kp T                                       &kp Y     &kp U              &kp I        &kp O    &kp P
-&kp A  &kp S         &mt LCTRL D   &mt LEFT_SHIFT F  &kp G                         &kp UP_ARROW  &kp H     &mt RIGHT_SHIFT J  &mt RCTRL K  &kp L    &kp MINUS
-&kp Z  &kp X         &kp C         &kp V             &kp B      &kp PRINTSCREEN    &kp DOWN      &kp N     &kp M              &kp COMMA    &kp DOT  &kp SLASH
-&none  &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 ESCAPE      &lt 1 TAB  &lt 2 SPACE        &kp RET       &kp BSPC                                           &kp DELETE
+&kp Q           &kp W           &kp E         &kp R             &kp T                                       &kp Y     &kp U              &kp I        &kp O            &kp P
+&mt LEFT_WIN A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G                         &kp UP_ARROW  &kp H     &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt LEFT_WIN MINUS
+&kp Z           &kp X           &kp C         &kp V             &kp B      &kp PRINTSCREEN    &kp DOWN      &kp N     &kp M              &kp COMMA    &kp DOT          &kp SLASH
+&none           &kp LEFT_ALT    &kp LEFT_GUI  &lt 3 ESCAPE      &lt 1 TAB  &lt 2 SPACE        &kp RET       &kp BSPC                                                   &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
