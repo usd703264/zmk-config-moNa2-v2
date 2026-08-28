@@ -13,35 +13,35 @@ layers:
   - P
   - A
   - S
-  - D
-  - F
+  - {t: D, h: LCTRL}
+  - {t: F, h: LEFT SHIFT}
   - G
-  - TAB
+  - UP ARROW
   - H
-  - J
-  - K
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RCTRL}
   - L
   - '-'
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
   - B
-  - LCTRL
-  - ESCAPE
+  - PRINTSCREEN
+  - DOWN
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
-  - Alt+PRINTSCREEN
+  - /
+  - ''
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 2, h: '3'}
-  - {t: LANGUAGE 1, h: '1'}
+  - {t: ESCAPE, h: '3'}
+  - {t: TAB, h: '1'}
   - {t: SPACE, h: '2'}
-  - BACKSPACE
   - RET
+  - BSPC
   - DELETE
   '1':
   - '!'
@@ -54,27 +54,27 @@ layers:
   - '*'
   - (
   - )
-  - TAB
-  - END
-  - UP ARROW
-  - HOME
-  - ''''
+  - ''
+  - ''
+  - ''
   - '`'
+  - ''''
+  - ''
   - '='
-  - ;
-  - \
-  - '['
-  - ']'
-  - LEFT SHIFT
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - '"'
-  - PRINTSCREEN
-  - '~'
-  - +
   - ':'
   - '|'
+  - '['
+  - ']'
+  - ''
+  - ''
+  - ''
+  - '~'
+  - '"'
+  - ''
+  - ''
+  - +
+  - ;
+  - \
   - '{'
   - '}'
   - {t: ▽, type: trans}
@@ -271,3 +271,7 @@ combos:
   k: '&mkp MB4'
 - p: [19, 31]
   k: '6'
+- p: [2, 3]
+  k: LANGUAGE 1
+- p: [6, 7]
+  k: LANGUAGE 2
