@@ -50,13 +50,13 @@
             key-positions = <19 31>;
         };
 
-        lang1 {
-            bindings = <&kp LANGUAGE_1>;
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <2 3>;
         };
 
-        lang2 {
-            bindings = <&kp LANGUAGE_2>;
+        lang1 {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <6 7>;
         };
     };
