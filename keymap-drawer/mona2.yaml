@@ -27,21 +27,21 @@ layers:
   - C
   - V
   - B
-  - PRINTSCREEN
+  - ''
   - DOWN
   - N
   - M
   - ','
   - .
   - /
-  - ''
+  - PRINTSCREEN
   - LEFT ALT
   - LEFT GUI
   - {t: ESCAPE, h: '3'}
   - {t: TAB, h: '1'}
   - {t: SPACE, h: '2'}
+  - BACKSPACE
   - RET
-  - BSPC
   - DELETE
   '1':
   - '!'
@@ -271,7 +271,7 @@ combos:
   k: '&mkp MB4'
 - p: [19, 31]
   k: '6'
-- p: [2, 3]
+- p: [12, 13]
   k: LANGUAGE 2
-- p: [6, 7]
+- p: [17, 18]
   k: LANGUAGE 1
