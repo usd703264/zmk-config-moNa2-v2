@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LEFT SHIFT}
   - G
@@ -20,8 +20,8 @@ layers:
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RCTRL}
-  - L
-  - '-'
+  - {t: L, h: RIGHT ALT}
+  - {t: '-', h: LEFT WIN}
   - Z
   - X
   - C
