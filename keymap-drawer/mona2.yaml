@@ -273,3 +273,5 @@ combos:
   k: LANGUAGE 2
 - p: [17, 18]
   k: LANGUAGE 1
+- p: [17, 18, 19]
+  k: '&mkp MB4'
