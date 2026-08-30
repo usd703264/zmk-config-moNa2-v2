@@ -40,11 +40,6 @@
             key-positions = <18 30>;
         };
 
-        mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <16 28>;
-        };
-
         sc {
             bindings = <&mo 6>;
             key-positions = <19 31>;
