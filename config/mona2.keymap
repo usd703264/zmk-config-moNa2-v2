@@ -54,6 +54,11 @@
             bindings = <&kp LANGUAGE_1>;
             key-positions = <17 18>;
         };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <17 18 19>;
+        };
     };
 
     macros {
