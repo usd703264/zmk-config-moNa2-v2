@@ -34,9 +34,9 @@ layers:
   - ','
   - .
   - /
-  - ESCAPE
+  - LEFT WIN
   - LEFT ALT
-  - LEFT GUI
+  - ESCAPE
   - {t: TAB, h: '3'}
   - {t: SPACE, h: '1'}
   - LEFT SHIFT
