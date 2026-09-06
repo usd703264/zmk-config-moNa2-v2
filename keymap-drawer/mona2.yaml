@@ -37,11 +37,11 @@ layers:
   - ESCAPE
   - LEFT ALT
   - LEFT GUI
-  - {t: TAB, h: '3'}
+  - {t: TAB, h: '2'}
   - {t: SPACE, h: '1'}
-  - {t: LEFT SHIFT, h: '2'}
+  - LEFT SHIFT
   - BACKSPACE
-  - RET
+  - {t: RET, h: '3'}
   - DELETE
   '1':
   - '!'
@@ -123,9 +123,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,11 +166,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
