@@ -13,13 +13,13 @@ layers:
   - P
   - A
   - S
-  - D
-  - F
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
   - G
   - ''
   - H
-  - J
-  - K
+  - {t: J, h: RCTRL}
+  - {t: K, h: RSHFT}
   - L
   - '-'
   - Z
@@ -27,14 +27,14 @@ layers:
   - C
   - V
   - B
-  - LEFT SHIFT
-  - RSHFT
+  - ''
+  - ''
   - N
   - M
   - ','
   - .
   - /
-  - LCTRL
+  - LEFT WIN
   - LEFT ALT
   - PRINTSCREEN
   - ESCAPE
