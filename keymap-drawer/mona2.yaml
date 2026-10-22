@@ -13,13 +13,13 @@ layers:
   - P
   - A
   - S
-  - {t: D, h: LSHFT}
+  - D
   - {t: F, h: LCTRL}
   - G
   - ''
   - H
   - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
+  - K
   - L
   - '-'
   - Z
@@ -27,19 +27,19 @@ layers:
   - C
   - V
   - B
-  - ''
+  - PRINTSCREEN
   - ''
   - N
   - M
   - ','
   - .
   - /
-  - LEFT WIN
-  - LEFT ALT
-  - PRINTSCREEN
   - ESCAPE
+  - LEFT ALT
+  - LEFT WIN
+  - TAB
   - {t: SPACE, h: '2'}
-  - {t: TAB, h: '3'}
+  - {t: LEFT SHIFT, h: '3'}
   - BACKSPACE
   - {t: RET, h: '1'}
   - DELETE
@@ -215,9 +215,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  '5': ['', '', '', '', '', PAGE UP, '', '', '', '', '', '', '', '', '', '', PAGE DOWN, '&mkp MB1', '&mkp MB2', '', '', '', '', '', '', '', '', '', '', '&mkp MB4',
+  MOUSE: ['', '', '', '', '', PAGE UP, '', '', '', '', '', '', '', '', '', '', PAGE DOWN, '&mkp MB1', '&mkp MB2', '', '', '', '', '', '', '', '', '', '', '&mkp MB4',
     '&mkp MB5', '', '', '', '', '', '', '', '', '', '', '']
-  '6':
+  SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ combos:
 - p: [18, 30]
   k: '&mkp MB2'
 - p: [19, 31]
-  k: '6'
+  k: SCROLL
 - p: [12, 13]
   k: LANGUAGE 2
 - p: [17, 18]
