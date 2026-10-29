@@ -13,13 +13,13 @@ layers:
   - P
   - A
   - S
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LCTRL}
+  - D
+  - F
   - G
-  - ''
+  - RCTRL
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RIGHT SHIFT}
+  - J
+  - K
   - L
   - '-'
   - Z
@@ -27,20 +27,20 @@ layers:
   - C
   - V
   - B
-  - PRINTSCREEN
-  - ''
+  - {t: LANGUAGE 2, h: '2'}
+  - {t: LANGUAGE 1, h: '1'}
   - N
   - M
   - ','
   - .
   - /
-  - ESCAPE
+  - PRINTSCREEN
   - LEFT ALT
+  - ESCAPE
   - TAB
-  - {t: LANGUAGE 1, h: '3'}
   - SPACE
-  - {t: LANGUAGE 2, h: '2'}
-  - {t: BACKSPACE, h: '1'}
+  - LEFT SHIFT
+  - {t: BACKSPACE, h: '3'}
   - RETURN
   - DELETE
   '1':
@@ -71,7 +71,7 @@ layers:
   - F4
   - F5
   - F11
-  - F12
+  - {t: F12, type: held}
   - F6
   - F7
   - F8
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
@@ -113,7 +113,7 @@ layers:
   - ''
   - '~'
   - '"'
-  - ''
+  - {type: held}
   - ''
   - +
   - ;
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,10 +166,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
