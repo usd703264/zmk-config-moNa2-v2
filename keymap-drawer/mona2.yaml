@@ -196,7 +196,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -210,6 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,13 +222,13 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [17, 29]
+- p: [28, 16]
   k: '&mkp MB4'
-- p: [18, 30]
+- p: [17, 29]
   k: '&mkp MB1'
-- p: [19, 31]
+- p: [18, 30]
   k: '&mkp MB2'
-- p: [20, 32]
+- p: [19, 31]
   k: SCROLL
 - p: [5, 16]
   k: LANGUAGE 1
