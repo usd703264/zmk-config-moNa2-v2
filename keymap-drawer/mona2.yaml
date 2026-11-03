@@ -22,24 +22,24 @@ layers:
   - K
   - L
   - '-'
-  - {t: LEFT SHIFT, h: Z}
+  - Z
   - X
   - C
   - V
   - B
-  - ''
+  - PRINTSCREEN
   - ''
   - N
   - M
   - ','
   - .
-  - {t: RSHIFT, h: /}
-  - PRINTSCREEN
-  - LEFT ALT
+  - /
   - ESCAPE
+  - LEFT ALT
   - LCTRL
   - {t: TAB, h: '2'}
   - {t: SPACE, h: '1'}
+  - LEFT SHIFT
   - {t: BACKSPACE, h: '3'}
   - RET
   - DELETE
@@ -81,8 +81,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,8 +123,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
