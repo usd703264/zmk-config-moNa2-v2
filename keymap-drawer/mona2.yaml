@@ -1,7 +1,48 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, '', H, J, K, L, '-', Z, X, C, V, B, PRINTSCREEN, '', N, M, ',', ., /, '', LEFT ALT, ESCAPE, '3', LCTRL, LEFT
-      SHIFT, '1', '2', '']
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - ''
+  - H
+  - J
+  - K
+  - L
+  - '-'
+  - {t: LEFT SHIFT, h: Z}
+  - X
+  - C
+  - V
+  - B
+  - ''
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - {t: RSHIFT, h: /}
+  - PRINTSCREEN
+  - LEFT ALT
+  - ESCAPE
+  - LCTRL
+  - {t: TAB, h: '2'}
+  - {t: SPACE, h: '1'}
+  - {t: BACKSPACE, h: '3'}
+  - RET
+  - DELETE
   '1':
   - '!'
   - '@'
@@ -41,8 +82,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
@@ -83,10 +124,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
   - VOL DN
@@ -125,10 +166,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -230,17 +271,7 @@ combos:
   k: '&mkp MB2'
 - p: [19, 31]
   k: SCROLL
-- p: [5, 16]
-  k: LANGUAGE 1
-- p: [4, 14]
-  k: LANGUAGE 2
 - p: [6, 17]
-  k: BACKSPACE
-- p: [7, 18]
-  k: RET
-- p: [8, 19]
-  k: DELETE
-- p: [3, 13]
-  k: SPACE
-- p: [2, 12]
-  k: TAB
+  k: LANGUAGE 1
+- p: [13, 3]
+  k: LANGUAGE 2
