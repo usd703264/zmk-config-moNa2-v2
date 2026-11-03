@@ -48,37 +48,12 @@ https: &mt {
 
         lang1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <5 16>;
+            key-positions = <6 17>;
         };
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <4 14>;
-        };
-
-        bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <6 17>;
-        };
-
-        ret {
-            bindings = <&kp RET>;
-            key-positions = <7 18>;
-        };
-
-        del {
-            bindings = <&kp DELETE>;
-            key-positions = <8 19>;
-        };
-
-        sp {
-            bindings = <&kp SPACE>;
-            key-positions = <3 13>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <2 12>;
+            key-positions = <13 3>;
         };
     };
 
@@ -123,10 +98,10 @@ https: &mt {
 
         default_layer {
             bindings = <
-&kp Q  &kp W         &kp E       &kp R  &kp T                                &kp Y  &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S         &kp D       &kp F  &kp G                         &none  &kp H  &kp J  &kp K      &kp L    &kp MINUS
-&kp Z  &kp X         &kp C       &kp V  &kp B      &kp PRINTSCREEN    &none  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&none  &kp LEFT_ALT  &kp ESCAPE  &mo 3  &kp LCTRL  &kp LEFT_SHIFT     &mo 1  &mo 2                             &none
+&kp Q             &kp W         &kp E       &kp R      &kp T                                      &kp Y    &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D       &kp F      &kp G                     &none            &kp H    &kp J  &kp K      &kp L    &kp MINUS
+&mt Z LEFT_SHIFT  &kp X         &kp C       &kp V      &kp B      &none          &none            &kp N    &kp M  &kp COMMA  &kp DOT  &mt SLASH RSHIFT
+&kp PRINTSCREEN   &kp LEFT_ALT  &kp ESCAPE  &kp LCTRL  &lt 2 TAB  &lt 1 SPACE    &lt 3 BACKSPACE  &kp RET                             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
