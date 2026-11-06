@@ -26,21 +26,6 @@ https: &mt {
             key-positions = <39 38>;
         };
 
-        mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <28 16>;
-        };
-
-        mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <17 29>;
-        };
-
-        mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <18 30>;
-        };
-
         sc {
             bindings = <&mo 6>;
             key-positions = <19 31>;
