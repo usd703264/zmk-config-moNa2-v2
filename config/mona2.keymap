@@ -79,7 +79,7 @@ https: &mt {
         default_layer {
             bindings = <
 &kp Q       &kp W         &kp E      &kp R      &kp T                                            &kp Y    &kp U  &kp I      &kp O    &kp P
-&kp A       &kp S         &kp D      &kp F      &kp G                           &none            &kp H    &kp J  &kp K      &kp L    &kp MINUS
+&kp A       &kp S         &kp D      &kp F      &kp G                           &none            &kp H    &kp J  &lt 6 K    &kp L    &kp MINUS
 &kp Z       &kp X         &kp C      &kp V      &kp B        &kp PRINTSCREEN    &none            &kp N    &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp ESCAPE  &kp LEFT_ALT  &kp LCTRL  &lt 2 TAB  &lt 1 SPACE  &kp LEFT_SHIFT     &lt 3 BACKSPACE  &kp RET                             &kp DELETE
             >;
@@ -126,7 +126,7 @@ https: &mt {
         MOUSE {
             bindings = <
 &none  &none  &none  &none  &none                  &none     &none     &none  &none     &none
-&none  &none  &none  &none  &none           &none  &mkp MB4  &mkp MB1  &sl 6  &mkp MB2  &none
+&none  &none  &none  &none  &none           &none  &mkp MB4  &mkp MB1  &none  &mkp MB2  &none
 &none  &none  &none  &none  &none  &none    &none  &none     &none     &none  &none     &none
 &none  &none  &none  &none  &none  &none    &none  &none                                &none
             >;
