@@ -3,6 +3,13 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <physical_layouts.dtsi>
 
+&zip_temp_layer {
+    excluded-positions = <
+        38
+    >;
+};
+
+
 
 / {
     chosen {
