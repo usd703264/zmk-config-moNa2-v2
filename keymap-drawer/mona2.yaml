@@ -269,3 +269,5 @@ combos:
   k: LANGUAGE 1
 - p: [13, 3]
   k: LANGUAGE 2
+- p: [38, 33]
+  k: '&mkp MB5'
