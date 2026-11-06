@@ -263,12 +263,6 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [28, 16]
-  k: '&mkp MB4'
-- p: [17, 29]
-  k: '&mkp MB1'
-- p: [18, 30]
-  k: '&mkp MB2'
 - p: [19, 31]
   k: SCROLL
 - p: [6, 17]
