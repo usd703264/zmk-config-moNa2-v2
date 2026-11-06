@@ -40,6 +40,11 @@ https: &mt {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <13 3>;
         };
+
+        test {
+            bindings = <&mkp MB5>;
+            key-positions = <38 33>;
+        };
     };
 
     macros {
