@@ -26,11 +26,6 @@ https: &mt {
             key-positions = <39 38>;
         };
 
-        sc {
-            bindings = <&mo 6>;
-            key-positions = <19 31>;
-        };
-
         lang1 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <6 17>;
