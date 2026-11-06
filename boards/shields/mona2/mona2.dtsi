@@ -4,8 +4,7 @@
 #include <physical_layouts.dtsi>
 
 &zip_temp_layer {
-    excluded-positions = <
-        38
+    excluded-positions = <16 17 18 19 38>;   // H J K L と Shift
     >;
 };
 
