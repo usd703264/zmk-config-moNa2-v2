@@ -126,7 +126,7 @@ https: &mt {
         MOUSE {
             bindings = <
 &none  &none  &none  &none  &none                  &none     &none     &none  &none     &none
-&none  &none  &none  &none  &none           &none  &mkp MB4  &mkp MB1  &to 6  &mkp MB2  &none
+&none  &none  &none  &none  &none           &none  &mkp MB4  &mkp MB1  &sl 6  &mkp MB2  &none
 &none  &none  &none  &none  &none  &none    &none  &none     &none     &none  &none     &none
 &none  &none  &none  &none  &none  &none    &none  &none                                &none
             >;
