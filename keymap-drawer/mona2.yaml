@@ -237,7 +237,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -249,7 +248,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -263,8 +263,6 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [19, 31]
-  k: SCROLL
 - p: [6, 17]
   k: LANGUAGE 1
 - p: [13, 3]
