@@ -35,11 +35,6 @@ https: &mt {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <13 3>;
         };
-
-        test {
-            bindings = <&mkp MB5>;
-            key-positions = <38 0>;
-        };
     };
 
     macros {
@@ -130,10 +125,10 @@ https: &mt {
 
         MOUSE {
             bindings = <
-&none  &none  &none  &none  &none                  &none     &none     &none     &none     &none
-&none  &none  &none  &none  &none           &none  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &none
-&none  &none  &none  &none  &none  &none    &none  &none     &none     &none     &none     &none
-&none  &none  &none  &none  &none  &none    &none  &none                                   &none
+&none  &none  &none  &none  &none                  &none     &none     &none  &none     &none
+&none  &none  &none  &none  &none           &none  &mkp MB4  &mkp MB1  &to 6  &mkp MB2  &none
+&none  &none  &none  &none  &none  &none    &none  &none     &none     &none  &none     &none
+&none  &none  &none  &none  &none  &none    &none  &none                                &none
             >;
         };
 
