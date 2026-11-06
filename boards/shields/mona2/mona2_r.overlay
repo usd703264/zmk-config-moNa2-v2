@@ -79,7 +79,9 @@
     status = "okay";
     device = <&trackball_central>; 
 
-    input-processors = <&pointer_accel>;
+    input-processors =
+        <&zip_temp_layer 5 10000>,
+        <&pointer_accel>;
 
     scroller {
         layers = <6>;
